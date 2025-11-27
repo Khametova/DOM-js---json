@@ -14,6 +14,6 @@ function updateImg(imgData) {
 }
 
 getDog();
-const btnEl = document.querySelector("btnImg");
+const btnEl = document.querySelector("#btnImg");
 
-btnEl.onclick("click", getDog());
+btnEl.onclick = getDog;

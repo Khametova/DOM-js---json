@@ -10,12 +10,18 @@
 .wrap {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
+  box-shadow: 0 0 5px rgb(146, 48, 12);
+  padding: 20px;
+  background-color: rgb(222, 226, 197);
+  width: 500px;
+  height: 400px;
 }
 
 #dogImg {
-  width: 350px;
+  width: 300px;
   height: 300px;
   object-fit: cover;
+  border-radius: 8px;
 }
