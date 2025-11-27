@@ -9,15 +9,9 @@
 
 .wrap {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-  margin: 50px auto 0;
-  padding: 40px;
-  border: 10px;
-  box-shadow: 0 0 8px rgb(82, 11, 148);
-  border-radius: 5%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 #dogImg {
